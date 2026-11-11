@@ -45,7 +45,7 @@ class Usuario:
         self.__salt = secrets.token_bytes(16)
         self.__password_hash(nueva_password)
     
-    def mostrar(self):
+    def mostrar_datos(self):
         print("\n -- DATOS DEL USUARIO--")
         print("Nombre:", self.nombre)
         print("Correo:", self.correo)
